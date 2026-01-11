@@ -22,7 +22,7 @@
 .logo {
     font-size: 22px;
     font-weight: 700;
-    color: #000000;
+    color: #ff8800;
 }
 
 .logo span {
@@ -37,7 +37,7 @@
 
 .nav-links a {
     text-decoration: none;
-    color: #000000;
+    color: #ff8800;
     font-weight: 800;
     position: relative;
 }
@@ -439,3 +439,4 @@ h1{
 section {
   text-align:center;
 }
+
