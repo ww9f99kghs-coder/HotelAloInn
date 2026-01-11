@@ -10,9 +10,9 @@
 }
 
 .nav-container {
-    max-width: 1300px;
-    margin: auto;
-    padding: 18px 8%;
+    max-width: 1100px;
+    margin:  0 auto;
+    padding: 20px;;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -441,35 +441,21 @@ section {
   text-align:center;
 }
 
-/* ===== NAVBAR MÓVIL ===== */
+/* ===== NAV MÓVIL LIMPIO ===== */
 @media (max-width: 768px) {
 
-  .nav-container {
-    flex-direction: column;
-    gap: 15px;
-  }
-
-  .nav-links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;
-  }
-
-  .nav-links a {
-    font-size: 18px;
-    font-weight: 600;
-  }
-
-  .nav-btn {
-    width: 100%;
-    text-align: center;
-    padding: 12px;
-  }
-}
-@media (max-width: 768px) {
   .nav-links {
     display: none;
   }
+
+  .nav-container {
+    justify-content: space-between;
+  }
+
+  .nav-btn {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
 }
+
 
